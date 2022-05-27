@@ -49,23 +49,23 @@ const questions = [{
     },
     {
         type: 'input',
-        message: 'Please enter your Github username:',
-        name: 'github',
-    },
-    {
-        type: 'input',
         message: 'Are there any questions that need to be addressed?',
         name: 'questions',
     },
+    {
+        type: 'input',
+        name: 'userName',
+        message: 'What is your GitHub username?',
+      },
 
     {
         type: 'input',
-        name: 'repo',
-        message: 'What is the URL of the github repo?',
+        name: 'clone',
+        message: 'What is the link to clone the repo?',
     },
     {
         type: 'input',
-        name: 'email',
+        name: 'userEmail',
         message: 'What is your email?',
     },
     {
@@ -83,10 +83,8 @@ function init() {
     inquirer
         .prompt(questions)
         .then(data => {
-            const filename = `${data.name //replace name with whatever content 
-      .toLowerCase()
-      .split(' ')
-      .join('')}.json`;
+            console.log(data);
+            const filename = `${data.title.toLowerCase().split(' ').join('')}.json`;
 
             writeToFile(filename, data);
         });
@@ -101,11 +99,10 @@ function init() {
 // }
 
 function writeToFile(filename, data) {
-    fs.writeFile(`${filename.data}.md`, generateMarkdown(response), err =>
+    fs.writeFile(`${filename}.md`, generateMarkdown(data), err =>
         err ? console.log(err) : console.log('Success!')
     );
 }
-
 
 // Function call to initialize app
 init();

@@ -22,6 +22,10 @@ THEN this information is added to the sections of the README entitled
 3. Usage, 
 4. Contributing, and 
 5. Tests
+6. license
+7. GitHub username
+8. GitHub profile
+9. email address
 
 
 WHEN I choose a license for my application from a list of options

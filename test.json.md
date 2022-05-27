@@ -1,22 +1,8 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+  # TEST
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `
-  # ${data.title}
-
-${data.description}
-${data.licenseBadge}
+test
+undefined
 
 
 ---
@@ -30,23 +16,21 @@ ${data.licenseBadge}
 7. [Authors and Acknowledgment](#authors%20and%20acknowledgment)
 ---
 ## About
-${data.about}
+test
 
 ---
 ## Visuals:
 ![]()
 ---
 ## Installation:
-
-${data.installation}
+kjhjh
 To clone the repo:
 
-    git clone ${data.clone}
+    git clone license
 
 ---
 ## License
-
-License used for this project - ${data.license}
+License used for this project - MIT
 * For more information on license types, please reference this website
 for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
 ---
@@ -62,23 +46,15 @@ Here are the steps needed for doing that:
 Following a code review, your feature will be merged.
 ---
 ## Questions:
-
-${data.questions}
+fsf
 ---
 ## Tests:
-
-${data.test}
+sfsfsf
 ---
 ## Authors and Acknowledgments
-
-${data.author}
+fs
 ---
 ## Contact Information:
+* GitHub Username: Lemming97
+* GitHub Email: lll
 
-* GitHub Username: ${data.userName}
-* GitHub Email: ${data.userEmail}
-
-`;
-}
-
-module.exports = generateMarkdown;
