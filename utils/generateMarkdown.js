@@ -1,32 +1,64 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-// function renderLicenseBadge(license) {}
+
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-// function renderLicenseLink(license) {}
+
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-// function renderLicenseSection(license) {}
+function renderLicenseSection(license) {}
 
 function renderLicenseBadge(license) {
   if (license === 'Apache 2.0') {
-    return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+    return '![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)';
   } else if (license === 'MIT') {
-    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+    return '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)';
   } else if (license === 'Mozilla') {
-    return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
+    return '![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)';
   } else if (license === 'Boost') {
-    return '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)';
+    return '![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)';
   } else if (license === 'Apache') {
-    return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+    return '![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)';
   } else if (license === 'None') {
-    return ` `
+    return ''
   }
 
 }
 
+function renderLicenseLink(badge, license) {
+  if (license === 'Apache 2.0') {
+    return `[${badge}](https://opensource.org/licenses/Apache-2.0)`;
+  } else if (license === 'MIT') {
+    return `[${badge}](https://opensource.org/licenses/MIT)`;
+  } else if (license === 'Mozilla') {
+    return `[${badge}](https://opensource.org/licenses/MPL-2.0)`;
+  } else if (license === 'Boost') {
+    return `[${badge}](https://www.boost.org/LICENSE_1_0.txt)`;
+  } else if (license === 'Apache') {
+    return `[${badge}](https://opensource.org/licenses/Apache-2.0)`;
+  } else if (license === 'None') {
+    return ''
+  }
+}
+
+function getLicenseSection(licenseStr) {
+  if (licenseStr !== 'None') {
+    return `
+## License
+
+License used for this project - ${licenseStr}
+* For more information on license types, please reference this website
+for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
+
+---
+
+    `
+  } else {
+    return ''
+  }
+};
 
 
 // TODO: Create a function to generate markdown for README
@@ -35,7 +67,8 @@ function generateMarkdown(data) {
   # ${data.title}
 
 ${data.description}
-${renderLicenseBadge(data.license)}
+${renderLicenseLink(renderLicenseBadge(data.license), data.license)}
+
 
 
 ---
@@ -63,12 +96,10 @@ To clone the repo:
     git clone ${data.clone}
 
 ---
-## License
 
-License used for this project - ${data.license}
-* For more information on license types, please reference this website
-for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
----
+${getLicenseSection(data.license)}
+
+
 ## Contributing:
 
 To contribute to this application, create a pull request.
