@@ -101,7 +101,7 @@ function init() {
 // }
 
 function writeToFile(filename, data) {
-    fs.writeFile(`${response.title}.md`, generateMarkdown(response), err =>
+    fs.writeFile(`${filename.data}.md`, generateMarkdown(response), err =>
         err ? console.log(err) : console.log('Success!')
     );
 }
