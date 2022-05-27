@@ -92,12 +92,6 @@ function init() {
 };
 
 // TODO: Create a function to write README file
-// function writeToFile(filename, data) {
-//     fs.writeFile(filename, JSON.stringify(data, null, '\t'), err =>
-//         err ? console.log(err) : console.log('Success!')
-//     );
-// }
-
 function writeToFile(filename, data) {
     fs.writeFile(`${filename}.md`, generateMarkdown(data), err =>
         err ? console.log(err) : console.log('Success!')
