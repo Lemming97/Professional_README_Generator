@@ -5,21 +5,23 @@
 
 README Generator
 
+## Table of Contents (Optional)
+
+If your README is long, add a table of contents to make it easy for users to find what they need.
+- [User Story](#user_story)
+- [Acceptance Criteria](#acceptance_criteria)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Video](#video)
+- [Screenshots](#screenshots)
+
+
 ## User Story
 ```
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ```
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Acceptance Criteria](#Acceptance)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#Screenshots)
 
 ## Acceptance Criteria
 ```
@@ -54,12 +56,12 @@ Install node.js, then install inquirer
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Generating Professional README.md files 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+## Video
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+
 
 ## Screenshots
+
+<br><img src="./Assets/images/screen1.png" alt="screenshot of starting page" width="350"/>
