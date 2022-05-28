@@ -58,7 +58,10 @@ Install node.js, then install inquirer
 
 Generating Professional README.md files 
 
+
 ## Video
+
+<br><img src="./assets/images/New Recording.gif" alt="Video/gif of creating the sample readmefile" width="550"/>
 
 
 
