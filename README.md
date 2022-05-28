@@ -64,4 +64,4 @@ Generating Professional README.md files
 
 ## Screenshots
 
-<br><img src="./Assets/images/screen1.png" alt="screenshot of starting page" width="350"/>
+<br><img src="./assets/images/screen1.png" alt="screenshot of starting page" width="350"/>
