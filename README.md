@@ -60,9 +60,7 @@ Generating Professional README.md files
 
 ## Video
 
-<br><img src="./assets/images/New Recording.gif" alt="Video/gif of creating the sample readmefile" width="550"/>
-
-
+<iframe src="https://drive.google.com/file/d/1z143MG2gltlaBp-d7DmlggEckM6AAdLm/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Screenshots
 
