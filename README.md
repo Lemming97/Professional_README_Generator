@@ -7,8 +7,8 @@ README Generator
 
 ## Table of Contents 
 
-- [User Story](#user_story)
-- [Acceptance Criteria](#acceptance_criteria)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Video](#video)
