@@ -60,7 +60,8 @@ Generating Professional README.md files
 
 ## Video
 
-<iframe src="https://drive.google.com/file/d/1z143MG2gltlaBp-d7DmlggEckM6AAdLm/preview" width="450" height="450" allow="autoplay"></iframe>
+
+<p>To View the Video: <a href="https://drive.google.com/file/d/1z143MG2gltlaBp-d7DmlggEckM6AAdLm/preview"> Click Here</a></p>
 
 ## Screenshots
 
