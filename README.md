@@ -63,6 +63,9 @@ Generating Professional README.md files
 
 <p>To View the Video: <a href="https://drive.google.com/file/d/1z143MG2gltlaBp-d7DmlggEckM6AAdLm/preview"> Click Here</a></p>
 
+
 ## Screenshots
 
 <br><img src="./assets/images/screen1.png" alt="screenshot of starting page" width="350"/>
+
+<p>To view the sample README.md file generated, <a href="./samplereadme.json.md">Click Here</a></p>
