@@ -1,8 +1,8 @@
 
   # Sample ReadMe
 
-Create a sample README
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+Create a sample ReadMe file
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 
@@ -35,7 +35,7 @@ To clone the repo:
 
 ## License
 
-License used for this project - Mozilla
+License used for this project - MIT
 * For more information on license types, please reference this website
 for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
 
@@ -69,6 +69,7 @@ Lindsey
 ---
 ## Contact Information:
 
-* GitHub Username: Lemming97
-* GitHub Email: Lindsey+test@gmail.com
+* GitHub Username: (https://github.com/Lemming97)
+* GitHub Email: (mailto:martinlindsey87@yahoo.com)
+
 

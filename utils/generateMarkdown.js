@@ -1,9 +1,4 @@
 
-
-
-
-
-
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
@@ -125,8 +120,9 @@ ${data.author}
 ---
 ## Contact Information:
 
-* GitHub Username: ${data.userName}
-* GitHub Email: ${data.userEmail}
+* GitHub Username: (https://github.com/${data.userName})
+* GitHub Email: (mailto:${data.userEmail})
+
 
 `;
 }
